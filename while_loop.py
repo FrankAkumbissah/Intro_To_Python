@@ -22,6 +22,13 @@ print("************************")
 i = 12
 while(i < 18):
     i = i + 2
-    print (i)
-    
-    
+    print (i)    
+#function that takes two numbers and prints all even numbers between them
+def evens():
+    start = int(input("Enter the start of the numbers: "))
+    end = int(input("Enter the end of the numbers: "))
+    for num in range(start + 1, end):
+        if num % 2 == 0:
+            print(num, end = " ")
+            for i in num(num, -1, -1):
+                print(num)

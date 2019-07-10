@@ -11,9 +11,23 @@ def evens():
             print(num, end = " ")
             num2 = num
             num2 = str(num2)
-            
-               
+
+def stars():
+    i = 4
+    while(i > 0):
+        print ("****")
+        i = i - 1
+        
+def stars2():
+    for i in range (0, 4):
+        for j in range(0, i + 1):
+            print("*", end = ' ')
+        print("\n")
+    for i in range (0, 4):
+        for j in range(i + 1, 4):
+            print("*", end = ' ')
+        print("\n")
 def main():
-    evens()
+    stars2()
     
 main()

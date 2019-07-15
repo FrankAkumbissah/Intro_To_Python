@@ -35,3 +35,27 @@ def stars2():
         for j in range(i + 1, 4):
             print("*", end = ' ')
         print("\n")
+        
+        
+def letter_search():
+    text = input("Enter a string: ")
+    if (text.count('a') == 0):
+        print("False")
+    else:
+        print("True")
+        
+def letter_search2():
+    text = input("Enter a string: ")
+    letter = input("Enter the letter to check presence: ")
+    if (text.count(letter) == 0):
+        print("False")
+    else:
+        print("True")
+        
+
+def letter_search3():
+    text = input("Enter a string: ")
+    if (text.count("s") != 0 and text.count("m") != 0):
+        print("True")
+    else:
+        print("False")
